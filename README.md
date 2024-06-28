@@ -76,9 +76,10 @@ The Ice Cream Parlor application is a desktop GUI app built using customtkinter 
 ##Testing 
 
 1. Once the application is running you'll find an interface with 3 tabs namely shop allergen and cart.
-2. Under shop you have a button to add to the cart which adds the entry to the cart on the clock of the button, the entry is automatically made in the cart tab, and in case of multiple entries the quantity column next to the name of the entry increases.
-3. The allergen tab gives you the ingredients that are used at the parlor and could have a side-effect if consumed by a person with a specific allergy and has a text box that allows you to add allergens with the allergen's name and description although the app has to be restarted once the entry is done to see the changes.
-4. On the cart tab I've given a remove button that removes an entry from the cart and if there are entries with quantities higher than 1 it reduces the quantity count by 1, the order button given below the entries is only visible if there are  entries in the cart.
+2. One can switch through tabs by clicking on shop, allergen and cart.
+3. Under the shop tab, you have a button to add to the cart which adds the entry to the cart on the clock of the button, the entry is automatically made in the cart tab, and in case of multiple entries the quantity column next to the name of the entry increases.
+4. The allergen tab gives you the ingredients that are used at the parlor and could have a side-effect if consumed by a person with a specific allergy and has a text box that allows you to add allergens with the allergen's name and description although the app has to be restarted once the entry is done to see the changes.
+5. On the cart tab I've given a remove button that removes an entry from the cart and if there are entries with quantities higher than 1 it reduces the quantity count by 1, the order button given below the entries is only visible if there are  entries in the cart.
 ## Usage
 
 - **Shop Tab**: Browse through different ice cream varieties by season and add them to your cart.
