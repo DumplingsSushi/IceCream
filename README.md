@@ -19,8 +19,8 @@ The Ice Cream Parlor application is a desktop GUI app built using customtkinter 
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/DumplingsSushi/IceCream
+    cd <file of your choice>
     ```
 
 2. Install the required packages:
