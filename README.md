@@ -64,7 +64,11 @@ The Ice Cream Parlor application is a desktop GUI app built using customtkinter 
     cd <repository-directory>
     ```
 
-2. Run the application:
+2. Run the database setup file:
+    ```bash
+    python BasicEntry.py
+    ```
+3. Run the application:
     ```bash
     python icecream.py
     ```
