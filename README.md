@@ -73,15 +73,17 @@ The Ice Cream Parlor application is a desktop GUI app built using customtkinter 
     python icecream.py
     ```
 
+##Testing 
+
+1. Once the application is running you'll find an interface with 3 tabs namely shop allergen and cart.
+2. Under shop you have a button to add to the cart which adds the entry to the cart on the clock of the button, the entry is automatically made in the cart tab, and in case of multiple entries the quantity column next to the name of the entry increases.
+3. The allergen tab gives you the ingredients that are used at the parlor and could have a side-effect if consumed by a person with a specific allergy and has a text box that allows you to add allergens with the allergen's name and description although the app has to be restarted once the entry is done to see the changes.
+4. On the cart tab I've given a remove button that removes an entry from the cart and if there are entries with quantities higher than 1 it reduces the quantity count by 1, the order button given below the entries is only visible if there are  entries in the cart.
 ## Usage
 
 - **Shop Tab**: Browse through different ice cream varieties by season and add them to your cart.
 - **Allergen Tab**: View the list of common allergens and add new allergens.
 - **Cart Tab**: Review your selected items and remove items if needed.
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
 
