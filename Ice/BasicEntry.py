@@ -64,3 +64,4 @@ cursor.execute("Delete from Allergy where id=4")
 conn.commit()
 # Close the connection
 conn.close()
+print("Database Setup Complete")
